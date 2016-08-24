@@ -157,7 +157,7 @@ public class Packager {
     }
 
     /// <summary>
-    /// 处理框架实例包
+    /// 处理框架实例包 需要打包bundle的目录要加进来
     /// </summary>
     static void HandleExampleBundle() {
         string resPath = AppDataPath + "/" + AppConst.AssetDir + "/";
@@ -168,6 +168,8 @@ public class Packager {
 
         AddBuildMap("prompt_asset" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Examples/Textures/Prompt");
         AddBuildMap("shared_asset" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Examples/Textures/Shared");
+
+		AddBuildMap("login" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/XGameCard/Prefabs/Login");
     }
 
     /// <summary>

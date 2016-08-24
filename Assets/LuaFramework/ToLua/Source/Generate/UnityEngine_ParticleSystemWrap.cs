@@ -151,6 +151,16 @@ public class UnityEngine_ParticleSystemWrap
 				obj.Simulate(arg0, arg1, arg2);
 				return 0;
 			}
+			else if (count == 5 && TypeChecker.CheckTypes(L, 1, typeof(UnityEngine.ParticleSystem), typeof(float), typeof(bool), typeof(bool), typeof(bool)))
+			{
+				UnityEngine.ParticleSystem obj = (UnityEngine.ParticleSystem)ToLua.ToObject(L, 1);
+				float arg0 = (float)LuaDLL.lua_tonumber(L, 2);
+				bool arg1 = LuaDLL.lua_toboolean(L, 3);
+				bool arg2 = LuaDLL.lua_toboolean(L, 4);
+				bool arg3 = LuaDLL.lua_toboolean(L, 5);
+				obj.Simulate(arg0, arg1, arg2, arg3);
+				return 0;
+			}
 			else
 			{
 				return LuaDLL.luaL_throw(L, "invalid arguments to method: UnityEngine.ParticleSystem.Simulate");

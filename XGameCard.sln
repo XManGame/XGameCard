@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{F919D6DE-4427-4F60-4062-7BF4ABCEB85A}") = "XGameCard", "Assembly-CSharp.csproj", "{78D089C1-A380-E505-4B39-3B5E1AD9C654}"
+EndProject
+Project("{F919D6DE-4427-4F60-4062-7BF4ABCEB85A}") = "XGameCard", "Assembly-CSharp-Editor.csproj", "{2E941040-F459-32D8-BF1A-93124364C61F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78D089C1-A380-E505-4B39-3B5E1AD9C654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D089C1-A380-E505-4B39-3B5E1AD9C654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D089C1-A380-E505-4B39-3B5E1AD9C654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D089C1-A380-E505-4B39-3B5E1AD9C654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E941040-F459-32D8-BF1A-93124364C61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E941040-F459-32D8-BF1A-93124364C61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E941040-F459-32D8-BF1A-93124364C61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E941040-F459-32D8-BF1A-93124364C61F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
