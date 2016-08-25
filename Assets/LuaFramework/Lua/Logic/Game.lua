@@ -15,6 +15,8 @@ require "Logic/CtrlManager"
 require "Common/functions"
 require "Controller/PromptCtrl"
 
+-- require "usedebug"
+
 --管理器--
 Game = {};
 local this = Game;
